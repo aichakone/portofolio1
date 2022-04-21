@@ -285,6 +285,16 @@ a.btn-send:hover {
     -webkit-transition: all 0.5s;
 }
 
+aside {
+    float: left;
+    text-align: left;
+    width: 280px;
+    padding: 5px 5px 5px 5px;
+    background-color: #f2f2f2;
+    /* shadow */
+    box-shadow: 0px 0px 6px #000000;
+    height: 1400px;
+}
 
 /*Navigation-stylesheets-include-here*/
 
@@ -307,6 +317,22 @@ a.navbar-brand img {
     left: 25%;
     position: relative;
 }
+.prop {
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    border: 1;
+    width: 200%;
+    margin: 0 auto;
+}
+.pro {
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    border: 1;
+    width: 100%;
+    margin: 0 auto;
+}
 
 #menu ul.nav li a {
     font-size: 15px;
@@ -316,6 +342,9 @@ a.navbar-brand img {
 #menu .nav>li>a {
     background: none;
     color: #fff;
+}
+.h3gau{
+    margin: 5px 0;
 }
 
 #menu ul.nav li a:hover,
@@ -1303,7 +1332,58 @@ label {
     float: left;
     margin: 0px 0px 20px 0px;
 }
+.cop{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.cop p{
+    flex: 0 0 40px;
+}
+.cont-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
+}
+.c90{
+    width: 85%;
+    background-color: #488;
+}
+.c95{
+    width: 95%;
+    background-color: #488;
+}
+.c85{
+    width: 70%;
+    background-color: #488;
+
+}
+.c100{
+    width: 100%;
+    background-color: #488;
+    border-radius: 5px;
+  
+}
+.cop2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.cont-barre2{
+    flex: 0 0 100%;
+    height: 0.3sem;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: grey;
+}
 .form-group {
     margin-bottom: 30px;
 }
@@ -1750,7 +1830,7 @@ a.btn-learn:hover {
 }
 
 .about .progress .progress-bar {
-    width: 0px;
+    width: 100px;
     background: #EF233C;
     border-radius: 10px;
     transition: 2s;
